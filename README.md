@@ -1,5 +1,9 @@
 # ccti — ComfyUI TUI (image left, chat right)
 
+<!-- ccid:security:begin (rendered by ccid render; do not edit by hand) -->
+**Security and dependencies:** kept up to date automatically (Renovate, with OSV vulnerability alerts); updates are merged when their tests pass. See the [security policy](SECURITY.md).
+<!-- ccid:security:end -->
+
 MVP. Chat on the right (ccht session against `opencode acp`), rendered
 image on the left via `ratatui-image` (protocol auto-detect: Kitty where
 available, Sixel in foot/cterm, halfblocks fallback).
